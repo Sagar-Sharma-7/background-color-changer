@@ -33,14 +33,12 @@ If you have any crazy idea then please pull request...
 
 ## JavaScript Algorithm For Random Color
 ```js 
+const body = document.querySelector("body");
 randomColor.addEventListener("click", () => {
     let r = Math.floor(Math.random() * 256);
     let g = Math.floor(Math.random() * 256);
     let b = Math.floor(Math.random() * 256);
     body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
-    userColor.value = `rgb(${r}, ${g}, ${b})`;
-    userColor.style.color = `rgb(${r}, ${g}, ${b})`;
-    github.style.color = `rgb(${r}, ${g}, ${b})`;
 });
 ```
 
