@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100vw;
+    height: 20vh;
+    background-color: #fff;
+}
+
+form{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.btn{
+    font-family: 'Akaya Telivigala', cursive;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.btn:hover{
+    background-color: #151515;
+    color: #f95700ff;
+}
+
+#userColor{
+    width: 55vw;
+    height: 10vh;
+    text-align: center;
+    caret-color: #f95700ff;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    transition: 1s;
+}
+
+#userColor:focus{
+    border-bottom: 1px solid #000;
+    border-radius: 30px;
+}
+
+
+#changeColor{
+    width: 45vw;
+    height: 10vh;
+}
+
+#randomColor{
+    width: 100%;
+    height: 8vh;
+    margin-top: 2vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100vw;
+    background-color: #151515;
+    color: #fff;
+    padding: 2vh;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #f95700ff;
+}
+.fa-heart{
+    color: red;
+}
