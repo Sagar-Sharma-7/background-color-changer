@@ -84,9 +84,7 @@ footer a{
     color: #fff;
     text-decoration: none;
 }
-footer a:hover{
-    color: #f95700ff;
-}
+
 .fa-heart{
     color: red;
 }
